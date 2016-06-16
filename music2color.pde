@@ -192,7 +192,7 @@ void mouseReleased() {
 }
 
 void reset() {
-  saveFrame();
+  save("01.png");
 }
 void stop() {
   dumb.close();
